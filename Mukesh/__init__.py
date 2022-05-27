@@ -26,10 +26,10 @@ from config import MONGO_DB_URI as mango
 from config import (MUSIC_BOT_NAME, OWNER_ID, STRING1, STRING2, STRING3,
                     STRING4, STRING5, SUDO_USERS, UPSTREAM_BRANCH,
                     UPSTREAM_REPO, get_queue)
-from Alexa.Core.Clients.cli import (ASS_CLI_1, ASS_CLI_2, ASS_CLI_3, ASS_CLI_4,
+from Mukesh.Core.Clients.cli import (ASS_CLI_1, ASS_CLI_2, ASS_CLI_3, ASS_CLI_4,
                                     ASS_CLI_5, LOG_CLIENT, app)
-from Alexa.Utilities.changers import time_to_seconds
-from Alexa.Utilities.tasks import install_requirements
+from Mukesh.Utilities.changers import time_to_seconds
+from Mukesh.Utilities.tasks import install_requirements
 
 loop = asyncio.get_event_loop()
 console = Console()
